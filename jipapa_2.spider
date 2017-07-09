@@ -1,0 +1,29 @@
+{
+  "gen": "8346a6946b4fb74017026d27f1c1f603783e3c299cf433a2",
+  "miniVersion": 300,
+  "charset": "utf-8",
+  "isHasDetail": true,
+  "channel": {
+    "channel_url": "swf/",
+    "channel_link": "//ul[@class='inner_ul clearfix']/li/a/@href",
+    "channel_title": "//ul[@class='inner_ul clearfix']/li/a/text()"
+  },
+  "list": {
+    "list_title": "//ul[@class~='listn clearfix svideo']/li/p[1]/a/text()",
+    "list_link": "//ul[@class~='listn clearfix svideo']/li/a/@href",
+    "list_img": "//ul[@class~='listn clearfix svideo']/li/a/img/@src",
+    "list_time": "//ul[@class~='listn clearfix svideo']/li/p[2]/text()",
+    "list_page_info": "//div[@class~='pages']/a",
+    "list_display_type": 2,
+    "list_display_grid_column": 2,
+    "list_item_res_type": 1
+  },
+  "last_target": {
+    "xpath": "reg:nUrl = \"(http:.*?)\"",
+    "last_target_reg_group": 1
+  },
+  "detail": {
+    "detail_play": "//div[@class='mlist']/a/@href",
+    "detail_intro": "//div[@id='content_wrap']/text()"
+  }
+}

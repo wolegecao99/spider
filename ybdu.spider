@@ -1,0 +1,26 @@
+{
+    "gen": "040d3df56e2e39dc2c62558fd217c9bf0a9c3e0a23cf3d19",
+    "charset": "gbk",
+    "isHasDetail": true,
+    "channel": {
+        "channel_url": "http://www.ybdu.com/",
+        "channel_link": "//div[@class='subnav-hot fn-left']/a/@href",
+        "channel_title": "//div[@class='subnav-hot fn-left']/a/text()"
+    },
+    "list": {
+        "list_title": "//div[@class='clearfix rec_rullist']/ul/li[2]/a/text()",
+        "list_link": "//div[@class='clearfix rec_rullist']/ul/li[2]/a/@href",
+        "list_img": "null",
+        "list_time": "//div[@class='clearfix rec_rullist']/ul/li[5]/text()",
+        "list_page_info": "//div[@id='pagelink']/a",
+        "list_display_type": 1,
+        "list_display_grid_column": 2,
+        "list_item_res_type": 2
+    },
+    "last_target": {"xpath":"//div[@id='htmlContent']/tidyText()"},
+    "detail": {
+        "detail_play": "//ul[@class='mulu_list']/li/a",
+        "detail_intro": "//div[@class='mu_contain']/p[1]/tidyText()"
+    }
+
+}

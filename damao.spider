@@ -1,0 +1,40 @@
+{
+    "gen": "040d3df56e2e39dc61da0fc31a8d26390a9c3e0a23cf3d19",
+	"miniVersion": 300,
+    "charset": "UTF-8",
+    "isHasDetail": true,
+    "channel": {
+        "channel_url": "",
+        "channel_link": "//div[@class='collapse navbar-collapse']/ul/li/a/@href",
+        "channel_title": "//div[@class='collapse navbar-collapse']/ul/li/a/text()"
+    },
+    "list": {
+        "list_title": "//div[@class='movie-item']/a/@title",
+        "list_link": "//div[@class='movie-item']/a/@href",
+        "list_img": "//div[@class='movie-item']/a/img/@src",
+        "list_time": "//div[@class='movie-item']/div/div[2]/text()",
+        "list_page_info": "//div[@style='background:#FFF;padding-left:15px;']/a",
+        "list_display_type": 2,
+        "list_display_grid_column": 2,
+        "list_item_res_type": 1
+    },
+    "last_target": {"xpath":"//iframe/@src"},
+    "detail": {
+        "detail_play": "//a[@class='btn btn-success btn-block']/@href",
+        "detail_intro": "//p[@class='summary']/text()"
+    },
+  "search": {
+    "search_format": "search?wd=%s",
+    "search_title": "//div[@class='movie-item']/a/@title",
+    "search_img": "//div[@class='movie-item']/a/img/@src",
+    "search_link": "//div[@class='movie-item']/a/@href",
+    "search_info1": "//div[@class='movie-item']/div/div[2]/text()",
+    "search_info2": "//div[@class='movie-item']/a/button/text()"
+  },
+  "extra":{
+    "version":1,
+    "contact":"qq:123456,weixin:meizitu打赏二维码图片打赏二维码图片",
+    "intro":"各种介绍打赏二维码图片打赏二维码图片打赏二维码图片打赏二维码图片打赏二维码图片打赏二维码图片",
+    "QR_code_img":"http://a.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7bcb659c9745d688a302b5a29cf91a23/2934349b033b5bb571dc8c5133d3d539b600bc12.jpg"
+  }
+}

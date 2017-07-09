@@ -1,0 +1,34 @@
+{
+  "gen": "040d3df56e2e39dc939e00bed0843d04118d9d2da2f7b587",
+  "miniVersion": 300,
+  "charset": "utf-8",
+  "isHasDetail": true,
+  "channel": {
+    "channel_url": "",
+    "channel_link": "//ul[@class='nav navbar-nav navbar-left']/li[2]/ul/li/a/@href",
+    "channel_title": "//ul[@class='nav navbar-nav navbar-left']/li[2]/ul/li/a/allText()"
+  },
+  "list": {
+    "list_title": "//ul[@class='list-unstyled']/li/h4/a/text()",
+    "list_link": "//ul[@class='list-unstyled']/li/h4/a/@href",
+    "list_img": "//ul[@class='list-unstyled']/li/a/img/@src",
+    "list_time": "null",
+    "list_page_info": "//ul[@class~='pagination pagination-lg hidden-xs page']/a",
+    "list_display_type": 2,
+    "list_display_grid_column": 2,
+    "list_item_res_type": 1
+  },
+  "last_target": {
+    
+    "xpath": "reg:(xfplay://.*?)\\$",
+    "last_target_reg_group": 1
+  },
+  "detail": {
+    "detail_play": "//ul[@class='list-unstyled text-center play-list']/li/a/@href",
+    "detail_intro": "//dd[@class='hidden-xs vod-content']/text()"
+  },
+  "search": {
+  "search_format": "search.php?searchword=%s",
+  "search_info2": "//ul[@class='list-unstyled']/li/h6/allText()"
+  }
+}

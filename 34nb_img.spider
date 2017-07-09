@@ -1,0 +1,25 @@
+{
+    "gen": "040d3df56e2e39dc732a22e943b73d5b0a9c3e0a23cf3d19",
+	"miniVersion": 300,
+    "charset": "gbk",
+    "isHasDetail": false,
+    "channel": {
+        "channel_url": "",
+        "channel_link": "//div[@class='wrap mt20 nav']/ul[2]/li/a/@href",
+        "channel_title": "//div[@class='wrap mt20 nav']/ul[2]/li/a/text()"
+    },
+    "list": {
+        "list_title": "//td[@class~='listtitletxt' and @width=468]/a[2]/@title",
+        "list_link": "//td[@class~='listtitletxt' and @width=468]/a[2]/@href",
+        "list_img": "null",
+        "list_time": "//td[@class~='date']/tidyText()",
+        "list_page_info": "//div[@class~='box_page']/div/a",
+        "list_display_type": 1,
+        "list_display_grid_column": 2,
+        "list_item_res_type": 2
+    },
+    "last_target": {"xpath":"//div[@class='n_bd']/img/@src"},
+    "detail": {},
+    "audio": {
+    }
+}

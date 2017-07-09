@@ -1,0 +1,32 @@
+{
+  "gen": "3941a9af354a739cc1b8c9454e7bd17c0a9c3e0a23cf3d19",
+  "charset": "utf-8",
+  "isHasDetail": false,
+  "channel": {
+    "channel_url": "categories/",
+    "channel_link": "//div[@class='item']/a/@href",
+    "channel_title": "//div[@class='item']/a/span[1]/text()"
+  },
+  "list": {
+    "list_title": "//li[@class~='masonry-item item']/a/span[2]/text()",
+    "list_link": "//li[@class~='masonry-item item']/a/@href",
+    "list_img": "//li[@class~='masonry-item item']/a/span[1]/img/@src",
+    "list_time": "//li[@class~='masonry-item item']/div[1]/span[1]/allText()",
+    "list_page_info": "//ul[@class~='pagination']/li/a",
+    "list_display_type": 2,
+    "list_display_grid_column": 2,
+    "list_item_res_type": 1
+  },
+  "last_target": {    
+    "xpath": "reg:(http\\S+?\\.mp4)/",
+    "last_target_reg_group": 1
+  },
+  "detail": {
+    "detail_play": "//p[@class='play-list']/a/@href",
+    "detail_intro": "//div[@class='r info']/ul/li/tidyText()"
+  },
+  "search": {
+
+    "search_format": "search/?q=%s"
+  }
+}

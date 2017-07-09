@@ -1,0 +1,25 @@
+{
+    "gen": "040d3df56e2e39dc5c1d3f91950564f1283cc03e81096683",
+	"miniVersion": 300,
+    "charset": "gb2312",
+    "isHasDetail": false,
+    "channel": {
+        "channel_url": "",
+        "channel_link": "//div[@class='tags']/span/a/@href",
+        "channel_title": "//div[@class='tags']/span/a/text()"
+    },
+    "list": {
+        "list_title": "//ul[@class~='wp-list clearfix']/li/div/h3/a/allText()",
+        "list_link": "//ul[@class~='wp-list clearfix']/li/div/div/a/@href",
+        "list_img": "//ul[@class~='wp-list clearfix']/li/div/div/a/img/@src",
+        "list_time": "",
+        "list_page_info": "//div[@id~='wp_page_numbers']/ul/li/a",
+        "list_display_type": 1,
+        "list_display_grid_column": 2,
+        "list_item_res_type": 2
+    },
+    "last_target": {"xpath":"//div[@id='picture']/p/img/@src"},
+    "detail": {},
+    "audio": {
+    }
+}

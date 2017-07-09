@@ -1,0 +1,29 @@
+{
+    "gen": "040d3df56e2e39dc070cb79741e53cb41e79391086577ba6",
+    "charset": "gbk",
+    "isHasDetail": true,
+    "channel": {
+        "channel_url": "http://www.dlwos.com/",
+        "channel_link": "//div[@class='wrapper']/ul/li/a/@href",
+        "channel_title": "//div[@class='wrapper']/ul/li/a/text()"
+    },
+    "list": {
+        "list_title": "//li[@class='min-width']/a[2]/text()",
+        "list_link": "//li[@class='min-width']/a[1]/@href",
+        "list_img": "null",
+        "list_time": "null",
+        "list_page_info": "//div[@id='pagelink']/a",
+        "list_display_type": 1,
+        "list_display_grid_column": 2,
+        "list_item_res_type": 2
+    },
+    "last_target": {"xpath":"//div[@id='content']/tidyText()"},
+    "detail": {
+        "detail_play": "//ul[@class='chapters']/li/a",
+        "detail_intro": "//div[@class='excerpt']/allText()"
+    },
+  "search": {
+    "search_encode": "gbk",
+    "search_format": "http://www.dlwos.com/modules/article/search.php?searchkey=%s"
+  }
+}

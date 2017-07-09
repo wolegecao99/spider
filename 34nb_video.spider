@@ -1,0 +1,25 @@
+{
+    "gen": "040d3df56e2e39dc732a22e943b73d5b0a9c3e0a23cf3d19",
+    "charset": "gbk",
+    "isHasDetail": false,
+    "channel": {
+        "channel_url": "http://www.34nb.com/",
+        "channel_link": "//div[@class='wrap mt20 nav']/ul[1]/li/a/@href",
+        "channel_title": "//div[@class='wrap mt20 nav']/ul[1]/li/a/text()"
+    },
+    "list": {
+        "list_title": "//div[@class~='text']/ul/li/div[2]/p/a/text()",
+        "list_link": "//div[@class~='text']/ul/li/div[2]/p/a/@href",
+        "list_img": "//div[@class~='text']/ul/li/div[1]/a/img/@src",
+        "list_time": "//div[@class~='text']/ul/li/div[2]/p[4]/text()",
+        "list_page_info": "//div[@class~='box_page']/div/a",
+        "list_display_type": 2,
+        "list_display_grid_column": 2,
+        "list_item_res_type": 1
+    },
+    "last_target": {"xpath":"reg:(http://.*\\.mp4)'",
+    "last_target_reg_group": 1},
+
+    "detail": {}
+    
+}

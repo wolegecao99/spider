@@ -1,0 +1,31 @@
+{
+  "gen": "040d3df56e2e39dcaf1eff21b290c26e8ff776429c9f775814347409ce187495",
+  "charset": "gb2312",
+  "isHasDetail": true,
+  "channel": {
+    "channel_url": "http://www.xfavtt2016.com/",
+    "channel_link": "//div[@id='menu']/ul/li/a/@href",
+    "channel_title": "//div[@id='menu']/ul/li/a/allText()"
+  },
+  "list": {
+    "list_title": "//div[@class='text']/ul/li/div[2]/p[1]/a/text()",
+    "list_link": "//div[@class='text']/ul/li/div[2]/p[1]/a/@href",
+    "list_img": "//div[@class='text']/ul/li/div[1]/a/img/@src",
+    "list_time": "//div[@class='text']/ul/li/div[2]/p[2]/text()",
+    "list_page_info": "//div[@class~='page']/a",
+    "list_display_type": 2,
+    "list_display_grid_column": 2,
+    "list_item_res_type": 1
+  },
+  "last_target": {
+    "xpath": "reg:(xfplay://.*?)\"",
+    "last_target_reg_group": 1
+  },
+  "detail": {
+  
+    "detail_play": "//div[@class='videourl']/ul/li/a/@href",
+    "detail_intro": "//div[@id='iddiv']/tidyText()"
+  },
+  "search": {
+  }
+}

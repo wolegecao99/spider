@@ -1,0 +1,25 @@
+{
+    "gen": "040d3df56e2e39dcd8374677583bb8a9725af6bf994ff0e1",
+    "charset": "gb2312",
+    "isHasDetail": true,
+    "channel": {
+        "channel_url": "http://www.ting89.com/",
+        "channel_link": "//div[@class='subnav']/ul[1]/li/a/@href",
+        "channel_title": "//div[@class='subnav']/ul[1]/li/a/text()"
+    },
+    "list": {
+        "list_title": "//div[@class~='clist']/ul/li/p[1]/a/allText()",
+        "list_link": "//div[@class~='clist']/ul/li/a/@href",
+        "list_img": "//div[@class~='clist']/ul/li/a/img/@src",
+        "list_time": "//div[@class~='clist']/ul/li/p[3]/text()",
+        "list_page_info": "//div[@class~='pagesnums']//a",
+        "list_display_type": 2,
+        "list_display_grid_column": 2,
+        "list_item_res_type": 1
+    },
+    "last_target": {"xpath":"reg:http://.*?(?=\\&)"},
+    "detail": {
+        "detail_play": "//div[@class~='compress']//a",
+        "detail_intro": "//div[@class='introbox']/tidyText()"
+    }
+}

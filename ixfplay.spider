@@ -1,0 +1,36 @@
+{
+  "gen": "040d3df56e2e39dcf095aa402090afa8d7449491dbac2c12",
+  "miniVersion": 300,
+  "charset": "gb2312",
+  "isHasDetail": true,
+  "channel": {
+    "channel_url": "",
+    "channel_link": "//div[@class='nav']/ul/li/a/@href",
+    "channel_title": "//div[@class='nav']/ul/li/a/allText()"
+  },
+  "list": {
+    "list_title": "//div[@class='listBox']/ul/li/div[2]/h3/a/text()",
+    "list_link": "//div[@class='listBox']/ul/li/div[2]/h3/a/@href",
+    "list_img": "//div[@class='listBox']/ul/li/div[1]/a/img/@src",
+    "list_time": "//div[@class='listBox']/ul/li/div[2]/p[4]/text()",
+    "list_page_info": "//div[@class~='page']/a",
+    "list_display_type": 2,
+    "list_display_grid_column": 2,
+    "list_item_res_type": 1
+  },
+  "last_target": {
+    "inner":{
+      "xpath":"//script[@src~='/playdata/']/@src"
+    },
+    "xpath": "reg:(xfplay://.*?)\'",
+    "last_target_reg_group": 1
+  },
+  "detail": {
+    "detail_play": "//div[@class='videourl']/ul/li/a/@href",
+    "detail_intro": "//div[@id='idDIV']/tidyText()"
+  },
+  "search": {
+  "search_format": "search.asp?searchword=%s",
+  "search_info2": "//div[@class='listBox']/ul/li/div[2]/p[3]/text()"
+  }
+}

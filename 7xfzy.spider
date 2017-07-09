@@ -1,0 +1,28 @@
+{
+  "gen": "040d3df56e2e39dcc8e2f844b2ffaf211e79391086577ba6",
+  "miniVersion": 300,
+  "charset": "gb2312",
+  "isHasDetail": false,
+  "channel": {
+    "channel_url": "",
+    "channel_link": "//div[@class='left']/ul/li/em/a/@href",
+    "channel_title": "//div[@class='left']/ul/li/em/a/allText()"
+  },
+  "list": {
+    "list_title": "//table[@cellpadding='3']//tr[@class='row']/td[1]/a/text()",
+    "list_link": "//table[@cellpadding='3']//tr[@class='row']/td[1]/a/@href",
+    "list_img": "null",
+    "list_time": "//table[@cellpadding='3']//tr[@class='row']/td[4]/text()",
+    "list_page_info": "//div[@class~='pages']/a",
+    "list_display_type": 1,
+    "list_display_grid_column": 2,
+    "list_item_res_type": 2
+  },
+  "last_target": {
+    "xpath": "//input[@id='copy_yah']/@value"
+  },
+  "detail": {
+  },
+  "search": {
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "gen": "040d3df56e2e39dc80bb0531fa8348e03ad112bb0c1c31bf",
+	"miniVersion": 300,
+    "charset": "utf-8",
+    "isHasDetail": false,
+    "channel": {
+        "channel_url": "",
+        "channel_link": "//div[@class='hypoMain clear']/ul/li/em/a/@href",
+        "channel_title": "//div[@class='hypoMain clear']/ul/li/em/a/allText()"
+    },
+    "list": {
+        "list_title": "//table[@style~='border-left:' and @width=760]/tbody/tr/td[1]/a/text()",
+        "list_link": "//table[@style~='border-left:' and @width=760]/tbody/tr/td[1]/a/@href",
+        "list_img": "",
+        "list_time": "//table[@style~='border-left:' and @width=760]/tbody/tr/td[3]/tidyText()",
+        "list_page_info": "//div[@class~='pages']/span/a",
+        "list_display_type": 1,
+        "list_display_grid_column": 2,
+        "list_item_res_type": 2
+    },
+    "last_target": {"xpath":"reg:value=\"(xfplay://.*?)\"","last_target_reg_group": 1},
+    "detail": {},
+	"search": {
+    "search_format": "index.php?s=vod-search&wd=%s"
+    }
+}

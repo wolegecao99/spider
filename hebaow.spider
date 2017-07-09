@@ -1,0 +1,34 @@
+{
+    "gen": "040d3df56e2e39dcda51b6bc194425c2505eecf5728f97e1",
+    "charset": "gbk",
+    "isHasDetail": true,
+    "channel": {
+        "channel_url": "",
+        "channel_link": "//div[@class='main m_menu']/ul/li/a/@href",
+        "channel_title": "//div[@class='main m_menu']/ul/li/a/allText()"
+    },
+    "list": {
+        "list_title": "//tr[@bgcolor='#FFFFFF']/td[1]/a/text()",
+        "list_link": "//tr[@bgcolor='#FFFFFF']/td[1]/a/@href",
+        "list_img": "null",
+        "list_time": "//tr[@bgcolor='#FFFFFF']/td[4]/a/text()",
+        "list_page_info": "//div[@id='pagelink']/a",
+        "list_display_type": 1,
+        "list_display_grid_column": 2,
+        "list_item_res_type": 2
+    },
+    "last_target": {"xpath":"//dd[@id='contents']/tidyText()"},
+    "detail": {
+        "detail_play": "//td[@class='L']/a",
+        "detail_intro": "//div[@class='js']/allText()"
+    },
+  "search": {
+    "search_title": "//table[@class~='grid']/tbody/tr/td[1]/a/text()",
+    "search_link": "//table[@class~='grid']/tbody/tr/td[1]/a/@href",
+    "search_info1": "//table[@class~='grid']/tbody/tr/td[4]/text()",
+    "search_info2": "//table[@class~='grid']/tbody/tr/td[3]/text()",
+    "search_encode":"gbk",
+    "search_format": "modules/article/search.php?searchtype=articlename&searchkey=%s"
+  }
+
+}

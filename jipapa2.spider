@@ -1,0 +1,33 @@
+{
+    "gen": "040d3df56e2e39dc7efe3c5c1c464e51966be6ba25ca52b0",
+    "charset": "utf-8",
+    "isHasDetail": true,
+    "channel": {
+        "channel_url": "http://www.bibipa.com/sexmovie/",
+        "channel_link": "//ul[@class='inner_ul clearfix']/li/a/@href",
+        "channel_title": "//ul[@class='inner_ul clearfix']/li/a/text()"
+    },
+    "list": {
+        "list_title": "//ul[@class~='list clearfix']/li/a/@title",
+        "list_link": "//ul[@class~='list clearfix']/li/a/@href",
+        "list_img": "//ul[@class~='list clearfix']/li/a/img/@src",
+        "list_time": "//ul[@class~='list clearfix']/li/p/text()",
+        "list_page_info": "//div[@class~='pages']/a",
+        "list_display_type": 2,
+        "list_display_grid_column": 2,
+        "list_item_res_type": 1
+    },
+    "last_target": {"xpath":"reg:xfplay://.*(?=\")"},
+    "detail": {
+		"detail_play": "//section[@class~='playlist xfplay sec']/div/a",
+		"detail_intro": "//div[@id='content_wrap']/text()"
+	},
+    "search": {
+        "search_format": "http://www.bibipa.com/vod-search-wd-%s-p.html",
+        "search_title": "//li[@class='clearfix']/p[1]/allText()",
+        "search_img": "//li[@class='clearfix']/a/img/@src",
+        "search_link": "//li[@class='clearfix']/a/@href",
+        "search_info1": "//li[@class='clearfix']/p[2]/allText()",
+        "search_info2": "//li[@class='clearfix']/div/allText()"
+    }
+}
